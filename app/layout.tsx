@@ -14,6 +14,11 @@ const nunito = Nunito({ subsets: ['latin'] })
 export const metadata = {
   title: 'Your place',
   description: 'Travel in the safest way',
+  icons: {
+     rel: 'icon',
+     sizes: '48x48',
+     url: '/icon.ico',
+  },
 }
 
 export default async function RootLayout({
