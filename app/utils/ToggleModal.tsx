@@ -17,5 +17,5 @@ export const ToggleAuth = (isModal:string) => {
          }
          
         },
-        [loginModal, registerModal],);
+        [loginModal, registerModal, isModal],);
 }

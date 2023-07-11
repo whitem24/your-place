@@ -60,7 +60,7 @@ const RentModal = () => {
 
   const Map = useMemo(() => dynamic(() => import('../Map'), {
     ssr:false,
-  }), [location]);
+  }), []);
 
   //Since react hook form setValue does not render the component we will make the following function instead of using it directly
   const setCustomValue = (id:string, value:any) => {
